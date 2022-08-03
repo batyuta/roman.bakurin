@@ -1,0 +1,35 @@
+<html>
+<head>
+    <script src="js/jquery.min.js" ></script>
+    <script src="js/i18next.min.js" ></script>
+    <script src="js/i18nextHttpBackend.min.js" ></script>
+    <script src="js/i18nextLocalStorageCache.min.js" ></script>
+    <script src="js/i18nextSprintfPostProcessor.min.js" ></script>
+    <script src="js/i18nextBrowserLanguageDetector.min.js" ></script>
+    <script src="js/jquery-i18next.min.js" ></script>
+</head>
+
+<body>
+<div style="height: 150px">
+    <button onclick="changeLanguage('en')">
+        english
+    </button>
+    <button onclick="changeLanguage('ru')">
+        german
+    </button>
+</div>
+<ul class="nav">
+    <li><a href="#" data-i18n="nav.home"></a></li>
+    <li><a href="#" data-i18n="nav.page1"></a></li>
+    <li><a href="#" data-i18n="nav.page2"></a></li>
+</ul>
+
+<div class="content">
+    <input data-i18n="[placeholder]input.placeholder; [title]input.placeholder" />
+</div>
+
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
