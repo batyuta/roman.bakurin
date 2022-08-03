@@ -1,12 +1,14 @@
 {
   "dependencies": {
+    "@popperjs/core": "^2.11.5",
     "bootstrap": "^3.4.1",
     "bootstrap-icons": "^1.9.1",
+    "holderjs": "^2.9.9",
     "i18next": "^21.8.16",
     "i18next-browser-languagedetector": "^6.1.4",
     "i18next-http-backend": "^1.4.1",
     "i18next-localstorage-cache": "^1.1.1",
     "i18next-sprintf-postprocessor": "^0.2.2",
-    "jquery": "^3.6.0",
+    "jquery": "^3.6.0"
   }
 }

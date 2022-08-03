@@ -20,16 +20,14 @@ i18next
     }, function (err, t) {
         // for options see
         jqueryI18next.init(i18next, $);
-
-        // start localizing, details:
+        $("#navLang").val(i18next.language);
         updateContent();
     });
 
 function updateContent() {
-    $('.nav').localize();
-    $('.content').localize();
+    $('.i18n').localize();
 }
 
 function changeLanguage(lang) {
-    i18next.changeLanguage(lang).then(updateContent);
+    i18next.changeLanguage(lang.value).then(updateContent);
 }
