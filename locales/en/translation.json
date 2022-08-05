@@ -1,10 +1,87 @@
 {
   "nav": {
-    "home": "Home"
+    "title": "Roman Bakurin",
+    "home": "Home",
+    "delivery": "Delivery",
+    "about": "About",
+    "search": "Search"
   },
   "lang": {
-    "name": "Language",
+    "name": "English",
     "ru": "Русский",
     "en": "English"
+  },
+  "about": {
+    "title": "Diamond Needles",
+    "description": "DIAMOND ENGRAVING NEEDLE for sale with different stone weights and needle configurations. Handmade needles have a stone size of only 0.03ct. We work with drawings. We are engaged in sharpening of the tool 20 UAH/needle. And also we produce diamond scribers, nozzles NK1 Rockwell. We make a tool for drawing a picture on the surface of a stone (usually for the production of monuments). I will send any quantity to any place, in any way convenient for you, by prepayment to any payment system, from Vinnitsa Ukraine. For communication, use the number - Vitaliy. Communication via Telegram, WhatsApp, Viber. Ready to consider any suggestions."
+  },
+  "company": {
+    "title": "Roman Bakurin",
+    "description": "DIAMOND ENGRAVING NEEDLE"
+  },
+  "delivery": {
+    "title": "Order and Delivery",
+    "description": "For delivery and payment inquiries, please contact our customer service"
+  },
+  "label": {
+    "diameter": "Diameter",
+    "length": "Length",
+    "manufacturer": "Manufacturer"
+  },
+  "items": {
+    "item001": {
+      "image": "images/image_001.jpg",
+      "name": "Игла победитовая 2 мм.",
+      "description": "Игла победитовая шлифованная для гравёрной вибрационной машинки.",
+      "diameter": "2 мм",
+      "length": "33 мм",
+      "manufacturer": "Россия",
+      "price": "50 ₽"
+    },
+    "item002": {
+      "image": "images/image_002.jpg",
+      "name": "Игла победитовая 2 мм.",
+      "description": "Игла победитовая шлифованная для гравёрной вибрационной машинки.",
+      "diameter": "2 мм",
+      "length": "33 мм",
+      "manufacturer": "Россия",
+      "price": "50 ₽"
+    },
+    "item003": {
+      "image": "images/image_003.jpg",
+      "name": "Игла победитовая 2 мм.",
+      "description": "Игла победитовая шлифованная для гравёрной вибрационной машинки.",
+      "diameter": "2 мм",
+      "length": "33 мм",
+      "manufacturer": "Россия",
+      "price": "50 ₽"
+    },
+    "item004": {
+      "image": "images/image_004.jpg",
+      "name": "Игла победитовая 2 мм.",
+      "description": "Игла победитовая шлифованная для гравёрной вибрационной машинки.",
+      "diameter": "2 мм",
+      "length": "33 мм",
+      "manufacturer": "Россия",
+      "price": "50 ₽"
+    },
+    "item005": {
+      "image": "images/image_005.jpg",
+      "name": "Игла победитовая 2 мм.",
+      "description": "Игла победитовая шлифованная для гравёрной вибрационной машинки.",
+      "diameter": "2 мм",
+      "length": "33 мм",
+      "manufacturer": "Россия",
+      "price": "50 ₽"
+    },
+    "item006": {
+      "image": "images/image_006.jpg",
+      "name": "Игла победитовая 2 мм.",
+      "description": "Игла победитовая шлифованная для гравёрной вибрационной машинки.",
+      "diameter": "2 мм",
+      "length": "33 мм",
+      "manufacturer": "Россия",
+      "price": "50 ₽"
+    }
   }
 }

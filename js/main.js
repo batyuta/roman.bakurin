@@ -9,7 +9,7 @@ i18next
     .init({
         fallbackLng: 'en',
         // lng: 'en',
-        ns: ['translation'],
+        ns: ['translation','items'],
         defaultNS: 'translation',
         debug: true,
         backend: {
@@ -20,7 +20,6 @@ i18next
     }, function (err, t) {
         // for options see
         jqueryI18next.init(i18next, $);
-        $("#navLang").val(i18next.language);
         updateContent();
     });
 
@@ -29,5 +28,17 @@ function updateContent() {
 }
 
 function changeLanguage(lang) {
-    i18next.changeLanguage(lang.value).then(updateContent);
+    i18next.changeLanguage(lang).then(updateContent);
+}
+
+function onNavClick(thiz){
+
+    let link = $(thiz);
+    link.parent().parent().find('.nav-link').removeClass('active');
+    link.addClass('active');
+}
+function onHomeClick(){
+    let link = $('#menuDefault');
+    link.parent().parent().find('.nav-link').removeClass('active');
+    link.addClass('active');
 }
