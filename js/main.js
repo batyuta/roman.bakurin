@@ -9,7 +9,7 @@ i18next
     .init({
         fallbackLng: 'en',
         // lng: 'en',
-        ns: ['translation','items'],
+        ns: ['translation'],
         defaultNS: 'translation',
         debug: true,
         backend: {
