@@ -14,7 +14,7 @@ i18next
         debug: true,
         backend: {
             // load from i18next-gitbook repo
-            loadPath: 'http://localhost/roman.bakurin/locales/{{lng}}/{{ns}}.json',
+            loadPath: 'locales/{{lng}}/{{ns}}.json',
             crossDomain: true
         }
     }, function (err, t) {
